@@ -2,3 +2,7 @@
 Name: <%= @todo.name %>
 <br>
 Description: <%= @todo.description %>
+<br>
+<%= link_to "edit the todo ", edit_todo_path(@todo) %> |
+<%= link_to "back to index", todos_path %>
+

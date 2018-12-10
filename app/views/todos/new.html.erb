@@ -1,4 +1,4 @@
-<div class="header">
+<div class="content">
 	Hi guys this is todos new make page
   <% if @todo.errors.any? %>
   <h3>The following errors occured-</h3>
@@ -22,5 +22,5 @@
     <%= f.submit %>
 
   <% end %>
-
+<%= link_to "back to Index", todos_path %>
 </div>

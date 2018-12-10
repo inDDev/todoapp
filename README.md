@@ -1,7 +1,9 @@
+
+edit_todo_path(t)
+add _path to anything
 edit submits to update
 Todo.find(params[:id])
 Flash messaging- running hash...
-
 new submits to create action
 params.require(hash)
 Stroog parameters & params
