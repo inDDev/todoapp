@@ -1,4 +1,7 @@
-
+before_action with only
+  smelly code = refactor
+msg to notice communication in flash
+render 'xyz'
 edit_todo_path(t)
 add _path to anything
 edit submits to update
