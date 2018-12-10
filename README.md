@@ -1,3 +1,5 @@
+edit submits to update
+Todo.find(params[:id])
 Flash messaging- running hash...
 
 new submits to create action

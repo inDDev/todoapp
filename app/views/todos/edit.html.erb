@@ -1,0 +1,9 @@
+<h3>Edit an existing todo</h3>
+<%= form_for @todo do |f| %>
+  <%= f.label :Name, "Name" %>
+  <%= f.text_field :name %>
+  <br>
+  <%= f.label :Description, "Description" %>
+  <%= f.text_area :description %>
+  <%= f.submit %>
+<% end %>
